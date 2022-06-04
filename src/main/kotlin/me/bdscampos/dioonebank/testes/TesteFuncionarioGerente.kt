@@ -5,7 +5,8 @@ import me.bdscampos.dioonebank.Funcionario
 import me.bdscampos.dioonebank.Gerente
 
 fun main() {
-    val maria = Gerente(nome = "Maria do Carmo", cpf = "098.765.432-10", salario = 3000.0)
+    val maria = Gerente(nome = "Maria do Carmo", cpf = "098.765.432-10", salario = 3000.0, senha = "senha123")
     ImprimeRelatorioFuncionario.imprime(maria)
+    TesteAutenticacao().autentica(maria)
 }
 
