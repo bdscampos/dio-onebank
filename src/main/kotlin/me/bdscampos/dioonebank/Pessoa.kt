@@ -1,8 +1,8 @@
 package me.bdscampos.dioonebank
 
-open class Pessoa(
-    var nome: String,
-    var cpf: String
+abstract class Pessoa(
+    val nome: String,
+    val cpf: String
 )
 
 
